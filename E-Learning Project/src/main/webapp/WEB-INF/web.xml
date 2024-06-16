@@ -1,0 +1,91 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+ 
+ <servlet>
+  	<servlet-name>Test</servlet-name>
+  	<display-name>Test</display-name>
+  	<description></description>
+  	<servlet-class>Test</servlet-class>
+  </servlet>
+  
+   <servlet-mapping>
+  	<servlet-name>Test</servlet-name>
+  	<url-pattern>/Test</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>Teacherlog</servlet-name>
+  	<display-name>Teacherlog</display-name>
+  	<description></description>
+  	<servlet-class>Teacherlog</servlet-class>
+  </servlet>
+   <servlet>
+   	<servlet-name>TeacherReg</servlet-name>
+   	<display-name>TeacherReg</display-name>
+   	<description></description>
+   	<servlet-class>com.eLearn.TeacherReg</servlet-class>
+   </servlet>
+   <servlet>
+   	<servlet-name>studentReg</servlet-name>
+   	<display-name>studentReg</display-name>
+   	<description></description>
+   	<servlet-class>com.eLearn.studentReg</servlet-class>
+   </servlet>
+   <servlet>
+   	<servlet-name>Studentlog</servlet-name>
+   	<display-name>Studentlog</display-name>
+   	<description></description>
+   	<servlet-class>Studentlog</servlet-class>
+   </servlet>
+   <servlet>
+   	<servlet-name>logout</servlet-name>
+   	<display-name>logout</display-name>
+   	<description></description>
+   	<servlet-class>logout</servlet-class>
+   </servlet>
+   <servlet>
+   	<servlet-name>addCourse</servlet-name>
+   	<display-name>addCourse</display-name>
+   	<description></description>
+   	<servlet-class>com.eLearn.addCourse</servlet-class>
+   </servlet>
+   <servlet>
+   	<servlet-name>enrolCourse</servlet-name>
+   	<display-name>enrolCourse</display-name>
+   	<description></description>
+   	<servlet-class>com.eLearn.enrolCourse</servlet-class>
+   </servlet>
+  
+   <servlet-mapping>
+  	<servlet-name>Teacherlog</servlet-name>
+  	<url-pattern>/Teacherlog</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>TeacherReg</servlet-name>
+   	<url-pattern>/TeacherReg</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>studentReg</servlet-name>
+   	<url-pattern>/studentReg</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>Studentlog</servlet-name>
+   	<url-pattern>/Studentlog</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>logout</servlet-name>
+   	<url-pattern>/logout</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>addCourse</servlet-name>
+   	<url-pattern>/addCourse</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+   	<servlet-name>enrolCourse</servlet-name>
+   	<url-pattern>/enrolCourse</url-pattern>
+   </servlet-mapping>
+</web-app>
