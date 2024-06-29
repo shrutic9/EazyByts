@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>userReg</servlet-name>
+  	<display-name>userReg</display-name>
+  	<description></description>
+  	<servlet-class>com.language.userReg</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>userLog</servlet-name>
+  	<display-name>userLog</display-name>
+  	<description></description>
+  	<servlet-class>com.language.userLog</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>lesson</servlet-name>
+  	<display-name>lesson</display-name>
+  	<description></description>
+  	<servlet-class>com.language.lesson</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>exercise</servlet-name>
+  	<display-name>exercise</display-name>
+  	<description></description>
+  	<servlet-class>com.language.exercise</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>quizes</servlet-name>
+  	<display-name>quizes</display-name>
+  	<description></description>
+  	<servlet-class>com.language.quizes</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>logout</servlet-name>
+  	<display-name>logout</display-name>
+  	<description></description>
+  	<servlet-class>com.language.logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Quizsol</servlet-name>
+  	<display-name>Quizsol</display-name>
+  	<description></description>
+  	<servlet-class>com.language.Quizsol</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>progress</servlet-name>
+  	<display-name>progress</display-name>
+  	<description></description>
+  	<servlet-class>com.language.progress</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>userReg</servlet-name>
+  	<url-pattern>/userReg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>userLog</servlet-name>
+  	<url-pattern>/userLog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>lesson</servlet-name>
+  	<url-pattern>/lesson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>exercise</servlet-name>
+  	<url-pattern>/exercise</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>quizes</servlet-name>
+  	<url-pattern>/quizes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>logout</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Quizsol</servlet-name>
+  	<url-pattern>/Quizsol</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>progress</servlet-name>
+  	<url-pattern>/progress</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        
+			<!-- Database properties-->
+			<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+			<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/langlearn</property>
+			<property name="hibernate.connection.user">root</property>
+			<property name="hibernate.connection.password">123789</property>
+			
+			<!-- Hibernate Properties-->
+			<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+			<property name="hibernate.show_sql">true</property>
+			<property name="hibernate.hbm2ddl.auto">none</property>
+
+        <!-- Mapping file-->
+        <mapping class="com.language.entities.User" />
+        <mapping class="com.language.entities.Lesson" />
+        <mapping class="com.language.entities.Course" />
+        <mapping class="com.language.entities.Exercise" />
+        <mapping class="com.language.entities.Quiz" />
+        <mapping class="com.language.entities.QuizQuestion" />
+        <mapping class="com.language.entities.Progress" />
+        <mapping class="com.language.entities.Achievement" />
+        <mapping class="com.language.entities.UserAchievement" />
+
+    </session-factory>
+</hibernate-configuration>
